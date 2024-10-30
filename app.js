@@ -1,6 +1,6 @@
 async function carregarClientes() {
     try {
-      const response = await fetch('https://localhost:7251/api/clientes');
+      const response = await fetch('https://localhost:7110/api/clientes');
       const clientes = await response.json();
   
       const clientesDiv = document.getElementById('clientes');
